@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Home from './pages/index'
+import Home from './pages/dashboard/index'
 import 'antd/dist/antd.css';
 
 ReactDOM.render(<Home />, document.getElementById('root'));

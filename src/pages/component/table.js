@@ -18,15 +18,24 @@ class dataTable extends Component {
 
         await GETDATA().then(res => {
 
+          try {
+
             res.forEach(user => {
-                prepared_data.push(
-                    {
-                        id: user.id,
-                        username: user.username,
-                        name: user.name ,
-                      }
-                )
-            });   
+              prepared_data.push(
+                  {
+                      id: user.id,
+                      username: user.username,
+                      name: user.name ,
+                    }
+              ) 
+            });
+
+          }catch(err) {
+
+            console.log(err)
+
+          }
+               
         })
 
         console.log(prepared_data)
