@@ -75,5 +75,5 @@ class Register extends Component {
         );
     }
 }
- 
+
 export default Form.create({ name: 'registration_form' })(Register);
