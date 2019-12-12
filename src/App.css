@@ -136,3 +136,27 @@ li a:hover{
 .cimatu-margin{
   margin-left: 10px;
 }
+/************************COMPONENT-REGISTER******************************************************/
+.jeleen{
+  background-image: url('https://waifu2x.booru.pics/outfiles/d65759330d25de5a9fc5257d2b1a99b8bd01b8c3_s2_n1.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.richard{
+  margin: 50px 50px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: auto;
+  width: 70%;
+  display: inline-block;
+  margin-right: 100px;
+}
+/****************************PAGE 3********************************************/
+.kristy{
+  background-image: url('https://northernnatalcourier.co.za/wp-content/uploads/sites/63/2017/02/bigstock-Congratulations-Confetti-98083163.jpg');
+  
+}

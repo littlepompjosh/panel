@@ -91,7 +91,7 @@ class Yeet extends Component
                             Log in
                         </Button>
                         <br/>
-                        Or <a href="">register now!</a>
+                        Or <a href="http://localhost:3000/register">register now!</a>
                         </Form.Item>                
                     </Form>
                     </div>
