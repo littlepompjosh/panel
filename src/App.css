@@ -38,33 +38,33 @@
 }
 
 
-.jobelle{
+/* .jobelle{
   background-image: url('https://img2.cgtrader.com/items/97228/26a294bcda/city-planning-009-3d-model-max.jpg');
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
-.main-container{
+/* .main-container{
   margin: 0;
   padding: 0;
   /* position: absolute;
   top: 50%;
   left: 50%;
   transform: -50% -50%; */
+  /*9
   background-color: #1d1e22;
   width: auto;
   align-items: center;
   display: flex;
   justify-content: center;
+} */
 
-}
-
-.login-container{
+/* .login-container{
   background-color: white;
   width: 350px;
   padding: 30px;
-}
+} */
 
 /* .login-form{
   border: solid 1px #dcdcdc;
@@ -82,7 +82,7 @@
 /* form{
   border: solid 2px black;
 } */
-ul {
+/* ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -111,4 +111,28 @@ li a:hover{
 }
 .camina{
   margin: 200px 100px;
+} */
+/*****************************************PRACTICE CSS**********************************************************************************************************/
+
+.jaren-main-container{
+  padding: 0;
+  background-image: url("https://waifu2x.booru.pics/outfiles/94b286181f87e1a7139aa980adda3e3aba20e477_s2_n1.jpg");
+  /* background-color: rgb(71, 117, 202); */
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.jobelle-login-container{
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: rgb(97, 196, 235);
+  height: 350px;
+  width: 350px;
+  padding: 30px;
+}
+.cimatu-margin{
+  margin-left: 10px;
 }

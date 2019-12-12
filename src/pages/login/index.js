@@ -34,8 +34,8 @@ class LoginForm extends Component {
     render() { 
         const { getFieldDecorator } = this.props.form;
         return (
-                <div className="main-container">
-                    <div className="login-container">
+                <div className="jaren-main-container">
+                    <div className="jobelle-login-container">
                         <Form onSubmit={this.handleSubmit} className="login-form">
                             <Form.Item>
                             {getFieldDecorator('username', {
@@ -81,5 +81,5 @@ class LoginForm extends Component {
          );
     }
 }
- 
+
 export default  Form.create({ name: 'login' })(LoginForm);
