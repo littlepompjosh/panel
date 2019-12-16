@@ -36,3 +36,130 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* .jobelle{
+  background-image: url('https://img2.cgtrader.com/items/97228/26a294bcda/city-planning-009-3d-model-max.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* .main-container{
+  margin: 0;
+  padding: 0;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: -50% -50%; */
+  /*9
+  background-color: #1d1e22;
+  width: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+} */
+
+/* .login-container{
+  background-color: white;
+  width: 350px;
+  padding: 30px;
+} */
+
+/* .login-form{
+  border: solid 1px #dcdcdc;
+  border-radius: 12px;
+  width: 350px;
+  height: 390px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  
+
+} */
+
+/* form{
+  border: solid 2px black;
+} */
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: auto 150px;
+}
+li a:hover{
+  background-color: rgb(211, 202, 202); 
+  transition: 1s;
+}
+.camina{
+  margin: 200px 100px;
+} */
+/*****************************************PRACTICE CSS**********************************************************************************************************/
+
+.jaren-main-container{
+  padding: 0;
+  background-image: url("https://waifu2x.booru.pics/outfiles/94b286181f87e1a7139aa980adda3e3aba20e477_s2_n1.jpg");
+  /* background-color: rgb(71, 117, 202); */
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.jobelle-login-container{
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: rgb(97, 196, 235);
+  height: 350px;
+  width: 350px;
+  padding: 30px;
+}
+.cimatu-margin{
+  margin-left: 10px;
+}
+/************************COMPONENT-REGISTER******************************************************/
+.jeleen{
+  background-image: url('https://waifu2x.booru.pics/outfiles/d65759330d25de5a9fc5257d2b1a99b8bd01b8c3_s2_n1.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.richard{
+  margin: 50px 50px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: auto;
+  width: 70%;
+  display: inline-block;
+  margin-right: 100px;
+}
+/****************************PAGE 3********************************************/
+#dellomas{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
