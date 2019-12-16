@@ -7,8 +7,10 @@ class Tifanny extends Component {
     }
     render() { 
         return ( 
-            <div className="kristy">
-            </div>
+            <video id="dellomas" loop autoPlay>
+                <source src="https://thumbs.gfycat.com/TestyAptEelelephant-mobile.mp4" type="video/mp4" />
+                <source src ="https://thumbs.gfycat.com/TestyAptEelelephant-mobile.mp4" type="video/ogg"/>
+            </video>
          );
     }
 }

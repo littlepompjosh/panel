@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Icon, Input, Button, Checkbox, Menu, Alert, notification } from 'antd';
+import { Redirect } from 'react-router-dom'
 
 var axios = require('axios')
 
@@ -24,7 +25,7 @@ class Yeet extends Component
                 method: 'post',
                 url : 'http://localhost:4000/api/login',
                 data : {
-                    username : values.username,
+                    email : values.email,
                     password : values.password
                 }
             }).then(function (response) {
@@ -33,12 +34,24 @@ class Yeet extends Component
                     var message="Successfully logged in!"
                     var desc = "Thank you for logging in your account. Enjoy!"
 
+                    var obj = {
+                        username : values.username,
+                        firstname : 'Nathan'
+                    }
+
+                    localStorage.loggedInUser = JSON.stringify(obj);
+
                     openNotification(desc,message)
+
+                    window.location.reload()
+                    
                 }else{
                     var message="Invalid!"
                     var desc = "Please input your correct information."
 
                     openNotification(desc,message)
+
+                    
                 }
               })
 
@@ -46,14 +59,15 @@ class Yeet extends Component
     }
 
     render() { 
+
         const { getFieldDecorator } = this.props.form;
         return (
             <div className="jaren-main-container">
                 <div className="jobelle-login-container">
                     <Form onSubmit={this.handleSubmit} className="login-form">
                         <Form.Item>
-                        {getFieldDecorator('username', {
-                            rules: [{ required: true, message: 'Please input your username!' }],
+                        {getFieldDecorator('email', {
+                            rules: [{ required: true, message: 'Please input your email!' }],
                         })(
                             <Input
                             autoComplete="off"

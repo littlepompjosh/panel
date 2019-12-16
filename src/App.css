@@ -156,7 +156,10 @@ li a:hover{
   margin-right: 100px;
 }
 /****************************PAGE 3********************************************/
-.kristy{
-  background-image: url('https://northernnatalcourier.co.za/wp-content/uploads/sites/63/2017/02/bigstock-Congratulations-Confetti-98083163.jpg');
-  
+#dellomas{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }

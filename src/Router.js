@@ -14,14 +14,15 @@ function App() {
 
         <Route exact path='/login'>        
           {/* IF USER ALREADY LOGIN REDIRECT TO HOMEPAGE */}
-          <Login />
+          {localStorage.loggedInUser !== undefined ? <Redirect to="Home"/>  : <Login />  }
+          
         </Route>
 
         <Route path='/register'>
             <Register />
         </Route>
 
-        <Route path='/page3'>
+        <Route path='/Home'>
             <Page3 />
         </Route>
 
